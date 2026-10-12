@@ -4,6 +4,11 @@ pydantic-settings
 pydantic[Email]
 SQLAlchemy
 Alembic
-PwdLib
+PwdLib[argon2]
 PyJWT
 asyncpg
+SQLAlchemy[asyncio]
+
+langchain
+langgraph
+langchain-groq

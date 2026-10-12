@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRY_IN_MINUTES : int
     REFRESH_TOKEN_EXPIRY_IN_DAYS : int
     JWT_SECRET_KEY : str
+    GROQ_API_KEY : str
 
 
     model_config = SettingsConfigDict(
