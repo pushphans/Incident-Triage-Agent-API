@@ -1,0 +1,26 @@
+{
+  "OperationalError": {
+    "cause": "Possible database connectivity issue",
+    "steps": [
+      "Check whether PostgreSQL is running",
+      "Verify database host and port",
+      "Check network connectivity"
+    ]
+  },
+  "TimeoutError": {
+    "cause": "Operation exceeded the allowed time",
+    "steps": [
+      "Check server response time",
+      "Verify network latency",
+      "Inspect timeout configuration"
+    ]
+  },
+  "ConnectionError": {
+    "cause": "Possible network or service connectivity issue",
+    "steps": [
+      "Check whether the service is running",
+      "Verify service address and port",
+      "Check firewall and network connectivity"
+    ]
+  }
+}

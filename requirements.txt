@@ -11,4 +11,7 @@ SQLAlchemy[asyncio]
 
 langchain
 langgraph
-langchain-groq
+langchain-google-genai
+
+tenacity
+slowapi

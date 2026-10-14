@@ -1,0 +1,14 @@
+{
+  "payment-service": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "port": 8001,
+    "dependencies": ["PostgreSQL", "Redis"]
+  },
+  "notification-service": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "port": 8002,
+    "dependencies": ["PostgreSQL", "SMTP"]
+  }
+}
