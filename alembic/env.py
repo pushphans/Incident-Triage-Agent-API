@@ -8,6 +8,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 from alembic import context
 
 from incident_triage_agent_api.models.auth_models import UserModel, RefreshTokenModel
+from incident_triage_agent_api.models.ai_models import ConversationModel
 
 from incident_triage_agent_api.core.db import Base
 from incident_triage_agent_api.core.config import settings

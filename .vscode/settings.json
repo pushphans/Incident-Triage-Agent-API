@@ -1,4 +1,5 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.defaultFormatter": "ms-python.debugpy"
+    "editor.defaultFormatter": "ms-python.debugpy",
+    "explorer.compactFolders": false
 }
